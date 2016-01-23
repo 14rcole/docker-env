@@ -1,0 +1,4 @@
+LIST OF PACKAGES IN THIS PROJECT
+1. main --> default package
+2. operatingsys --> handles the differences between operating systems such as the package managers
+3. errors --> handles errors thrown by other packages

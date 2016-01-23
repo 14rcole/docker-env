@@ -1,0 +1,39 @@
+Operating Systems
+	-Ubuntu (FROM ubuntu) (uses apt-get)
+	-Debian (FROM debian) (uses apt-get)
+	-Fedora (FROM fedora) (uses dnf)
+	-CentOS (FROM centos) (uses yum or dnf)
+
+
+Non-GUI tools
+	-Java (repository -> older version?)
+	-C/C++ (repository) (gcc/g++, make)
+	-Python/Python3 (repository)
+	-Ruby (repository)
+	-Apache (repository -> apache2)
+	-MySQL (repository -> mysql-server) (then run mysql_install_db and /usr/bin/mysql_secure_installation)
+	-PHP (repository -> php5)
+	-Node.js (repository -> nodejs)
+	-Mongodb (repository) (https://hackhands.com/how-to-get-started-on-the-mean-stack/#installing-mongodb-on-mac-os-x-and-linux)
+	-Express (Node repository -> npm install express)
+	-Bower (npm install bower)
+	-Vim
+	-Emacs
+	
+
+
+Other Non-GUI
+	-LAMP stack (install Apache, MySQL, and PHP from repos and do file moving and such) (the following can be done with a shell script
+		-also installs from repos libapache2-mod-auth-mysql, php5-mysql, libapache2-mod-php5, php5-mcrypt
+		-then edits /etc/apache2/mods-enabled/dir.conf
+		-Start container with command "service apache2 start"
+	-MEAN stack(install )
+
+
+Command line input for other apt-get or yum tools?
+
+
+GUI Tools (the fun part) (All in separate containers within the original container)``
+	-Eclipse
+	-Sublime
+	-
